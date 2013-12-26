@@ -1,0 +1,16 @@
+package com.carpark.supportedclass;
+
+
+import com.carpark.*;
+import com.carpark.R;
+
+import android.app.Activity; 
+import android.os.Bundle; 
+
+public class Help extends Activity { 	
+    @Override 
+    protected void onCreate(Bundle savedInstanceState){ 
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.get_data); 
+    } 
+} 
