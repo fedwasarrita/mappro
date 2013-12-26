@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1"
+	android:background="@drawable/backgroundlist">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:padding="5dip">
+
+		<com.google.android.maps.MapView
+
+			android:id="@+id/mapv" android:layout_width="fill_parent"
+			android:layout_height="380px" android:apiKey="0Erct0VhQ1pCuU4JjPSCWC2mcvrEfZ9H-Rn3bLg"
+			android:enabled="true" android:clickable="true"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true" />
+		<LinearLayout android:id="@+id/zoom"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_marginRight="15dip"
+			android:layout_marginBottom="42dip" />
+
+
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:padding="5dip"
+		android:gravity="center">
+		<EditText android:lines="1" android:layout_height="wrap_content"
+			android:inputType="text" android:hint="(Äá»‹a Ä‘iá»ƒm)"
+			android:layout_width="300px" android:id="@+id/geocode_input"
+			android:layout_alignParentTop="true" android:layout_alignRight="@+id/presentLocation_button">
+			<requestFocus></requestFocus>
+		</EditText>
+		<Button android:layout_height="wrap_content" android:id="@+id/presentLocation_button"
+			android:text="Vá»‹ trÃ­ hiá»‡n táº¡i" android:layout_width="112dp"
+			android:layout_below="@+id/geocode_button"
+			android:layout_centerHorizontal="true">
+		</Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/geocode_button"
+			android:text="TÃ¬m" android:layout_width="66dp"
+			android:layout_alignBaseline="@+id/geocode_input"
+			android:layout_alignBottom="@+id/geocode_input"
+			android:layout_toRightOf="@+id/geocode_input"
+			android:layout_marginLeft="16dp">
+		</Button>
+
+
+
+
+	</RelativeLayout>
+
+</LinearLayout>

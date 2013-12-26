@@ -1,0 +1,20 @@
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <CheckBoxPreference
+  	android:key = "compass"
+  	android:title = "compass"
+  	android:summary = "Whether to display orientation compass"
+  	android:defaultValue = "true" />
+  	
+  <ListPreference
+    android:title="GPS Preferences"
+    android:summary="Location precision (higher precision gives shorter battery life)"
+    android:key="gpsPref"
+    android:defaultValue="1"
+    android:entries="@array/updateOptions"
+    android:entryValues="@array/updateIndex" />
+    
+  
+
+</PreferenceScreen>

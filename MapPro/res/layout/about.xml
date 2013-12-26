@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/backgroundlist">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:padding="30dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Tìm kiếm bãi đậu xe"
+			android:textSize="24sp" 
+			android:textStyle="bold"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:padding="20dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="GVHD:"
+			android:textSize="16sp" 
+			android:textStyle="bold"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="TS. Võ Quế Sơn"
+			android:textSize="16sp" 
+			android:textStyle="bold"/>
+		
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:padding="20dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="SVTH:"
+			android:textSize="16sp" 
+			android:textStyle="bold"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Vũ Hải Quân"
+			android:textSize="16sp" 
+			android:textStyle="bold"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Lớp Việt Pháp 2008 - Viễn Thông"
+			android:textSize="16sp" 
+			android:textStyle="bold"/>
+	</LinearLayout>
+</LinearLayout>
